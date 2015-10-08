@@ -30,7 +30,8 @@ const styles = {
     marginTop: 15,
     borderRadius: 3,
     boxShadow: '0 5px 10px rgba(0, 0, 0, 0.2)',
-    position: 'relative'
+    position: 'relative',
+    width: '100%'
   },
 
   pill: {
@@ -47,7 +48,8 @@ export default class PlansSell extends Component {
 
   static propTypes = {
     style: PropTypes.object.isRequired,
-    plan: PropTypes.object.isRequired
+    plan: PropTypes.object.isRequired,
+    idx: PropTypes.number.isRequired
   }
 
   state = {
@@ -86,7 +88,7 @@ export default class PlansSell extends Component {
                 onFocus={() => this.setState({focused: true})}
                 onBlur={() => this.setState({focused: false})}
             />
-            <div style={{position: 'absolute'}}>
+            <div style={{position: 'absolute', marginLeft: '-' + (5 + this.props.idx) + '%'}}>
               <ReactCSSTransitionGroup transitionName="tooltip">
                 {this.renderTooltip(plan)}
               </ReactCSSTransitionGroup>

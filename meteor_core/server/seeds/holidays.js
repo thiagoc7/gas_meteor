@@ -8,7 +8,7 @@ Meteor.startup(() => {
     [
       {
         "date":"01/01/01",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/26/01",
@@ -20,7 +20,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/13/01",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/01",
@@ -36,11 +36,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/01",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/01",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/01",
@@ -48,7 +48,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/01",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/01",
@@ -56,7 +56,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/02",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/11/02",
@@ -68,7 +68,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/29/02",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/02",
@@ -84,11 +84,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/02",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/02",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/02",
@@ -96,7 +96,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/02",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/02",
@@ -104,7 +104,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/03",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"03/03/03",
@@ -116,7 +116,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/18/03",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/03",
@@ -132,11 +132,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/03",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/03",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/03",
@@ -144,7 +144,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/03",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/03",
@@ -152,7 +152,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/04",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/23/04",
@@ -164,7 +164,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/09/04",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/04",
@@ -180,11 +180,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/04",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/04",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/04",
@@ -192,7 +192,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/04",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/04",
@@ -200,7 +200,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/05",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/07/05",
@@ -212,7 +212,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/25/05",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/05",
@@ -228,11 +228,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/05",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/05",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/05",
@@ -240,7 +240,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/05",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/05",
@@ -248,7 +248,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/06",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/27/06",
@@ -260,7 +260,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/14/06",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/06",
@@ -276,11 +276,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/06",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/06",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/06",
@@ -288,7 +288,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/06",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/06",
@@ -296,7 +296,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/07",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/19/07",
@@ -308,7 +308,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/06/07",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/07",
@@ -324,11 +324,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/07",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/07",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/07",
@@ -336,7 +336,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/07",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/07",
@@ -344,7 +344,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/08",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/04/08",
@@ -356,7 +356,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/21/08",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/08",
@@ -372,11 +372,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/08",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/08",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/08",
@@ -384,7 +384,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/08",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/08",
@@ -392,7 +392,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/09",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/23/09",
@@ -404,7 +404,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/10/09",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/09",
@@ -420,11 +420,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/09",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/09",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/09",
@@ -432,7 +432,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/09",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/09",
@@ -440,7 +440,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/10",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/15/10",
@@ -452,7 +452,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/02/10",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/10",
@@ -468,11 +468,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/10",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/10",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/10",
@@ -480,7 +480,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/10",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/10",
@@ -488,7 +488,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/11",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"03/07/11",
@@ -500,7 +500,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/21/11",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/22/11",
@@ -516,11 +516,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/11",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/11",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/11",
@@ -528,7 +528,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/11",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/11",
@@ -536,7 +536,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/12",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/20/12",
@@ -548,7 +548,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/06/12",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/12",
@@ -564,11 +564,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/12",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/12",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/12",
@@ -576,7 +576,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/12",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/12",
@@ -584,7 +584,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/13",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/11/13",
@@ -596,7 +596,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/29/13",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/13",
@@ -612,11 +612,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/13",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/13",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/13",
@@ -624,7 +624,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/13",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/13",
@@ -632,7 +632,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/14",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"03/03/14",
@@ -644,7 +644,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/18/14",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/14",
@@ -660,11 +660,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/14",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/14",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/14",
@@ -672,7 +672,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/14",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/14",
@@ -680,7 +680,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/15",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/16/15",
@@ -692,7 +692,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/03/15",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/15",
@@ -708,11 +708,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/15",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/15",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/15",
@@ -720,7 +720,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/15",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/15",
@@ -728,7 +728,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/16",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/08/16",
@@ -740,7 +740,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/25/16",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/16",
@@ -756,11 +756,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/16",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/16",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/16",
@@ -768,7 +768,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/16",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/16",
@@ -776,7 +776,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/17",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/27/17",
@@ -788,7 +788,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/14/17",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/17",
@@ -804,11 +804,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/17",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/17",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/17",
@@ -816,7 +816,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/17",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/17",
@@ -824,7 +824,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/18",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/12/18",
@@ -836,7 +836,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/30/18",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/18",
@@ -852,11 +852,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/18",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/18",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/18",
@@ -864,7 +864,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/18",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/18",
@@ -872,7 +872,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/19",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"03/04/19",
@@ -884,7 +884,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/19/19",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/19",
@@ -900,11 +900,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/19",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/19",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/19",
@@ -912,7 +912,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/19",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/19",
@@ -920,7 +920,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/20",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/24/20",
@@ -932,7 +932,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/10/20",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/20",
@@ -948,11 +948,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/20",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/20",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/20",
@@ -960,7 +960,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/20",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/20",
@@ -968,7 +968,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/21",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/15/21",
@@ -980,7 +980,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/02/21",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/21",
@@ -996,11 +996,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/21",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/21",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/21",
@@ -1008,7 +1008,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/21",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/21",
@@ -1016,7 +1016,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/22",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/28/22",
@@ -1028,7 +1028,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/15/22",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/22",
@@ -1044,11 +1044,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/22",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/22",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/22",
@@ -1056,7 +1056,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/22",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/22",
@@ -1064,7 +1064,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/23",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/20/23",
@@ -1076,7 +1076,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/07/23",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/23",
@@ -1092,11 +1092,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/23",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/23",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/23",
@@ -1104,7 +1104,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/23",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/23",
@@ -1112,7 +1112,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/24",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/12/24",
@@ -1124,7 +1124,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/29/24",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/24",
@@ -1140,11 +1140,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/24",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/24",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/24",
@@ -1152,7 +1152,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/24",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/24",
@@ -1160,7 +1160,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/25",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"03/03/25",
@@ -1172,7 +1172,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/18/25",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/25",
@@ -1188,11 +1188,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/25",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/25",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/25",
@@ -1200,7 +1200,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/25",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/25",
@@ -1208,7 +1208,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/26",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/16/26",
@@ -1220,7 +1220,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/03/26",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/26",
@@ -1236,11 +1236,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/26",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/26",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/26",
@@ -1248,7 +1248,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/26",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/26",
@@ -1256,7 +1256,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/27",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/08/27",
@@ -1268,7 +1268,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/26/27",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/27",
@@ -1284,11 +1284,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/27",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/27",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/27",
@@ -1296,7 +1296,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/27",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/27",
@@ -1304,7 +1304,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/28",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/28/28",
@@ -1316,7 +1316,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/14/28",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/28",
@@ -1332,11 +1332,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/28",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/28",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/28",
@@ -1344,7 +1344,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/28",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/28",
@@ -1352,7 +1352,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/29",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/12/29",
@@ -1364,7 +1364,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/30/29",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/29",
@@ -1380,11 +1380,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/29",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/29",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/29",
@@ -1392,7 +1392,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/29",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/29",
@@ -1400,7 +1400,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/30",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"03/04/30",
@@ -1412,7 +1412,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/19/30",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/30",
@@ -1428,11 +1428,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/30",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/30",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/30",
@@ -1440,7 +1440,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/30",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/30",
@@ -1448,7 +1448,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/31",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/24/31",
@@ -1460,7 +1460,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/11/31",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/31",
@@ -1476,11 +1476,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/31",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/31",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/31",
@@ -1488,7 +1488,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/31",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/31",
@@ -1496,7 +1496,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/32",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/09/32",
@@ -1508,7 +1508,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/26/32",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/32",
@@ -1524,11 +1524,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/32",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/32",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/32",
@@ -1536,7 +1536,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/32",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/32",
@@ -1544,7 +1544,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/33",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/28/33",
@@ -1556,7 +1556,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/15/33",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/33",
@@ -1572,11 +1572,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/33",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/33",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/33",
@@ -1584,7 +1584,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/33",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/33",
@@ -1592,7 +1592,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/34",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/20/34",
@@ -1604,7 +1604,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/07/34",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/34",
@@ -1620,11 +1620,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/34",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/34",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/34",
@@ -1632,7 +1632,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/34",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/34",
@@ -1640,7 +1640,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/35",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/05/35",
@@ -1652,7 +1652,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/23/35",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/35",
@@ -1668,11 +1668,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/35",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/35",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/35",
@@ -1680,7 +1680,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/35",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/35",
@@ -1688,7 +1688,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/36",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/25/36",
@@ -1700,7 +1700,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/11/36",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/36",
@@ -1716,11 +1716,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/36",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/36",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/36",
@@ -1728,7 +1728,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/36",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/36",
@@ -1736,7 +1736,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/37",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/16/37",
@@ -1748,7 +1748,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/03/37",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/37",
@@ -1764,11 +1764,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/37",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/37",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/37",
@@ -1776,7 +1776,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/37",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/37",
@@ -1784,7 +1784,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/38",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"03/08/38",
@@ -1800,7 +1800,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/23/38",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"05/01/38",
@@ -1812,11 +1812,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/38",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/38",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/38",
@@ -1824,7 +1824,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/38",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/38",
@@ -1832,7 +1832,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/39",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/21/39",
@@ -1844,7 +1844,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/08/39",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/39",
@@ -1860,11 +1860,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/39",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/39",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/39",
@@ -1872,7 +1872,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/39",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/39",
@@ -1880,7 +1880,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/40",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/13/40",
@@ -1892,7 +1892,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/30/40",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/40",
@@ -1908,11 +1908,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/40",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/40",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/40",
@@ -1920,7 +1920,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/40",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/40",
@@ -1928,7 +1928,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/41",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"03/04/41",
@@ -1940,7 +1940,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/19/41",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/41",
@@ -1956,11 +1956,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/41",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/41",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/41",
@@ -1968,7 +1968,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/41",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/41",
@@ -1976,7 +1976,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/42",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/17/42",
@@ -1988,7 +1988,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/04/42",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/42",
@@ -2004,11 +2004,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/42",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/42",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/42",
@@ -2016,7 +2016,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/42",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/42",
@@ -2024,7 +2024,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/43",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/09/43",
@@ -2036,7 +2036,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/27/43",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/43",
@@ -2052,11 +2052,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/43",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/43",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/43",
@@ -2064,7 +2064,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/43",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/43",
@@ -2072,7 +2072,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/44",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/29/44",
@@ -2084,7 +2084,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/15/44",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/44",
@@ -2100,11 +2100,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/44",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/44",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/44",
@@ -2112,7 +2112,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/44",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/44",
@@ -2120,7 +2120,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/45",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/20/45",
@@ -2132,7 +2132,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/07/45",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/45",
@@ -2148,11 +2148,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/45",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/45",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/45",
@@ -2160,7 +2160,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/45",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/45",
@@ -2168,7 +2168,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/46",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/05/46",
@@ -2180,7 +2180,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/23/46",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/46",
@@ -2196,11 +2196,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/46",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/46",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/46",
@@ -2208,7 +2208,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/46",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/46",
@@ -2216,7 +2216,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/47",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/25/47",
@@ -2228,7 +2228,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/12/47",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/47",
@@ -2244,11 +2244,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/47",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/47",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/47",
@@ -2256,7 +2256,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/47",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/47",
@@ -2264,7 +2264,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/48",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/17/48",
@@ -2276,7 +2276,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/03/48",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/48",
@@ -2292,11 +2292,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/48",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/48",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/48",
@@ -2304,7 +2304,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/48",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/48",
@@ -2312,7 +2312,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/49",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"03/01/49",
@@ -2324,7 +2324,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/16/49",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/49",
@@ -2340,11 +2340,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/49",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/49",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/49",
@@ -2352,7 +2352,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/49",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/49",
@@ -2360,7 +2360,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/50",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/21/50",
@@ -2372,7 +2372,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/08/50",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/50",
@@ -2388,11 +2388,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/50",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/50",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/50",
@@ -2400,7 +2400,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/50",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/50",
@@ -2408,7 +2408,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/51",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/13/51",
@@ -2420,7 +2420,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/31/51",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/51",
@@ -2436,11 +2436,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/51",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/51",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/51",
@@ -2448,7 +2448,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/51",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/51",
@@ -2456,7 +2456,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/52",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"03/04/52",
@@ -2468,7 +2468,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/19/52",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/52",
@@ -2484,11 +2484,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/52",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/52",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/52",
@@ -2496,7 +2496,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/52",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/52",
@@ -2504,7 +2504,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/53",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/17/53",
@@ -2516,7 +2516,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/04/53",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/53",
@@ -2532,11 +2532,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/53",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/53",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/53",
@@ -2544,7 +2544,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/53",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/53",
@@ -2552,7 +2552,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/54",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/09/54",
@@ -2564,7 +2564,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/27/54",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/54",
@@ -2580,11 +2580,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/54",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/54",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/54",
@@ -2592,7 +2592,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/54",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/54",
@@ -2600,7 +2600,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/55",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"03/01/55",
@@ -2612,7 +2612,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/16/55",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/55",
@@ -2628,11 +2628,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/55",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/55",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/55",
@@ -2640,7 +2640,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/55",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/55",
@@ -2648,7 +2648,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/56",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/14/56",
@@ -2660,7 +2660,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/31/56",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/56",
@@ -2676,11 +2676,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/56",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/56",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/56",
@@ -2688,7 +2688,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/56",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/56",
@@ -2696,7 +2696,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/57",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"03/05/57",
@@ -2708,7 +2708,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/20/57",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/57",
@@ -2724,11 +2724,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/57",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/57",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/57",
@@ -2736,7 +2736,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/57",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/57",
@@ -2744,7 +2744,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/58",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/25/58",
@@ -2756,7 +2756,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/12/58",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/58",
@@ -2772,11 +2772,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/58",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/58",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/58",
@@ -2784,7 +2784,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/58",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/58",
@@ -2792,7 +2792,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/59",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/10/59",
@@ -2804,7 +2804,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/28/59",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/59",
@@ -2820,11 +2820,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/59",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/59",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/59",
@@ -2832,7 +2832,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/59",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/59",
@@ -2840,7 +2840,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/60",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"03/01/60",
@@ -2852,7 +2852,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/16/60",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/60",
@@ -2868,11 +2868,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/60",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/60",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/60",
@@ -2880,7 +2880,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/60",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/60",
@@ -2888,7 +2888,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/61",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/21/61",
@@ -2900,7 +2900,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/08/61",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/61",
@@ -2916,11 +2916,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/61",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/61",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/61",
@@ -2928,7 +2928,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/61",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/61",
@@ -2936,7 +2936,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/62",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/06/62",
@@ -2948,7 +2948,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/24/62",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/62",
@@ -2964,11 +2964,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/62",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/62",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/62",
@@ -2976,7 +2976,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/62",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/62",
@@ -2984,7 +2984,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/63",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/26/63",
@@ -2996,7 +2996,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/13/63",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/63",
@@ -3012,11 +3012,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/63",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/63",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/63",
@@ -3024,7 +3024,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/63",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/63",
@@ -3032,7 +3032,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/64",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/18/64",
@@ -3044,7 +3044,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/04/64",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/64",
@@ -3060,11 +3060,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/64",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/64",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/64",
@@ -3072,7 +3072,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/64",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/64",
@@ -3080,7 +3080,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/65",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/09/65",
@@ -3092,7 +3092,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/27/65",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/65",
@@ -3108,11 +3108,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/65",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/65",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/65",
@@ -3120,7 +3120,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/65",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/65",
@@ -3128,7 +3128,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/66",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/22/66",
@@ -3140,7 +3140,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/09/66",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/66",
@@ -3156,11 +3156,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/66",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/66",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/66",
@@ -3168,7 +3168,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/66",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/66",
@@ -3176,7 +3176,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/67",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/14/67",
@@ -3188,7 +3188,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/01/67",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/67",
@@ -3204,11 +3204,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/67",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/67",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/67",
@@ -3216,7 +3216,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/67",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/67",
@@ -3224,7 +3224,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/68",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"03/05/68",
@@ -3236,7 +3236,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/20/68",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/68",
@@ -3252,11 +3252,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/68",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/68",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/68",
@@ -3264,7 +3264,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/68",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/68",
@@ -3272,7 +3272,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/69",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/25/69",
@@ -3284,7 +3284,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/12/69",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/69",
@@ -3300,11 +3300,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/69",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/69",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/69",
@@ -3312,7 +3312,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/69",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/69",
@@ -3320,7 +3320,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/70",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/10/70",
@@ -3332,7 +3332,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/28/70",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/70",
@@ -3348,11 +3348,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/70",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/70",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/70",
@@ -3360,7 +3360,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/70",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/70",
@@ -3368,7 +3368,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/71",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"03/02/71",
@@ -3380,7 +3380,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/17/71",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/71",
@@ -3396,11 +3396,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/71",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/71",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/71",
@@ -3408,7 +3408,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/71",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/71",
@@ -3416,7 +3416,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/72",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/22/72",
@@ -3428,7 +3428,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/08/72",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/72",
@@ -3444,11 +3444,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/72",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/72",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/72",
@@ -3456,7 +3456,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/72",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/72",
@@ -3464,7 +3464,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/73",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/06/73",
@@ -3476,7 +3476,7 @@ Meteor.startup(() => {
       },
       {
         "date":"03/24/73",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/73",
@@ -3492,11 +3492,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/73",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/73",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/73",
@@ -3504,7 +3504,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/73",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/73",
@@ -3512,7 +3512,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/74",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/26/74",
@@ -3524,7 +3524,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/13/74",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/74",
@@ -3540,11 +3540,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/74",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/74",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/74",
@@ -3552,7 +3552,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/74",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/74",
@@ -3560,7 +3560,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/75",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/18/75",
@@ -3572,7 +3572,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/05/75",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/75",
@@ -3588,11 +3588,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/75",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/75",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/75",
@@ -3600,7 +3600,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/75",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/75",
@@ -3608,7 +3608,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/76",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"03/02/76",
@@ -3620,7 +3620,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/17/76",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/76",
@@ -3636,11 +3636,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/76",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/76",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/76",
@@ -3648,7 +3648,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/76",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/76",
@@ -3656,7 +3656,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/77",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/22/77",
@@ -3668,7 +3668,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/09/77",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/77",
@@ -3684,11 +3684,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/77",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/77",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/77",
@@ -3696,7 +3696,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/77",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/77",
@@ -3704,7 +3704,7 @@ Meteor.startup(() => {
       },
       {
         "date":"01/01/78",
-        "name":"Confraternizacao Universal"
+        "name":"Confrat Univ"
       },
       {
         "date":"02/14/78",
@@ -3716,7 +3716,7 @@ Meteor.startup(() => {
       },
       {
         "date":"04/01/78",
-        "name":"Paixao de Cristo"
+        "name":"Páscoa"
       },
       {
         "date":"04/21/78",
@@ -3732,11 +3732,11 @@ Meteor.startup(() => {
       },
       {
         "date":"09/07/78",
-        "name":"Independencia do Brasil"
+        "name":"Independencia"
       },
       {
         "date":"10/12/78",
-        "name":"Nossa Sr.a Aparecida - Padroeira do Brasil"
+        "name":"Nossa Sr.a Aparecida"
       },
       {
         "date":"11/02/78",
@@ -3744,7 +3744,7 @@ Meteor.startup(() => {
       },
       {
         "date":"11/15/78",
-        "name":"Proclamacao da Republica"
+        "name":"Republica"
       },
       {
         "date":"12/25/78",

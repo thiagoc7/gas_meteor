@@ -42,8 +42,7 @@ export default class PlansStation extends Component {
   }
 
   getMeteorData() {
-    //Meteor.subscribe("plansFilter", this.props.station.name, this.props.date);
-    var handle = Meteor.subscribe("plans", Session.get('startDate'), Session.get('finalDate'));
+    var handle = Meteor.subscribe("plansFilter", this.props.station.name, this.props.date);
 
     return {
       plans: Plans.find({
@@ -81,7 +80,7 @@ export default class PlansStation extends Component {
               <div style={styles.cell}>Compras</div>
               <div style={styles.cell}>Estoque Final</div>
             </div>
-            {this.data.plans.map(plan => <PlansTank plan={plan} key={plan._id}/>)}
+            {this.data.plans.map((plan, idx) => <PlansTank plan={plan} idx={idx} key={plan._id}/>)}
           </div>
         </div>
     )

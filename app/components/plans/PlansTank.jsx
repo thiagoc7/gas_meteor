@@ -28,7 +28,8 @@ const styles = {
 
 export default class PlansTank extends Component {
   static propTypes = {
-    plan: PropTypes.object.isRequired
+    plan: PropTypes.object.isRequired,
+    idx: PropTypes.number.isRequired
   }
 
   state = {
@@ -83,6 +84,7 @@ export default class PlansTank extends Component {
     } else {
       return <PlansSell
           style={styles.cell}
+          idx={this.props.idx}
           plan={this.props.plan}
           value={this.state.sellForecast}
           onChange={this.onSellForecastChange.bind(this)}
