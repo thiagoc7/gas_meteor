@@ -7,12 +7,7 @@ Plan = Astro.Class({
   fields: {
     date: 'string',
     station: 'string',
-    weekDay: {
-      type: 'number',
-      default: function() {
-        return parseInt(moment(this.date).day());
-      }
-    },
+    weekDay: 'number',
     holiday: 'string',
     dayType: 'string',
     tank: {
@@ -66,6 +61,9 @@ Plan = Astro.Class({
         this.set('dayType', 'dia forte');
       }
 
+      // set weekDay
+      this.set('weekDay', parseInt(moment(this.date).day()));
+
       // set begin volume
       var previousDate = moment(this.date).subtract(1, 'day').format('YYYY-MM-DD');
       var previousPlan = Plans.findOne({date: previousDate, station: this.station, "tank.gasoline": this.tank.gasoline});
@@ -113,8 +111,44 @@ Plan = Astro.Class({
   },
 
   methods: {
-    references: function() {
-      return Plans.find({station: this.station, "tank.gasoline": this.tank.gasoline}, {limit: 5}).fetch()
+    last5: function() {
+      var limit = 5;
+      if (this.holiday || this.dayType) { limit = 2; }
+
+      return Plan.find({
+        station: this.station,
+        tank: this.tank,
+        weekDay: this.weekDay
+      }, {
+        sort: {date: -1},
+        skip: 1,
+        limit: limit
+      });
+    },
+
+    specialDay: function() {
+      if (this.holiday) {
+        return Plan.find({
+          station: this.station,
+          tank: this.tank,
+          weekDay: this.weekDay,
+          holiday : {$ne : null}
+        }, {
+          sort: {date: -1},
+          skip: 1,
+          limit: 4
+        });
+      } else if (this.dayType) {
+        return Plan.find({
+          station: this.station,
+          tank: this.tank,
+          dayType : this.dayType
+        }, {
+          sort: {date: -1},
+          skip: 1,
+          limit: 4
+        });
+      }
     }
   }
 });

@@ -4,12 +4,15 @@ Meteor.publish('plans', function(startDate, finalDate){
   }
 });
 
-Meteor.publish('plansFilter', function(station, date){
+Meteor.publish('planLast5', function(plan){
   if (this.userId) {
-    return Plans.find({
-      station: station,
-      date: date
-    });
+    return plan.last5();
+  }
+});
+
+Meteor.publish('planSpecialDay', function(plan){
+  if (this.userId) {
+    return plan.specialDay();
   }
 });
 

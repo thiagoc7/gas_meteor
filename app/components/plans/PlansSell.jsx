@@ -1,4 +1,8 @@
+/* global ReactMeteorData */
+
 import React, { Component, PropTypes } from 'react';
+import ReactMixin from 'react-mixin';
+import { Spinner } from 'elemental';
 
 var ReactCSSTransitionGroup = React.addons.CSSTransitionGroup;
 
@@ -38,14 +42,34 @@ const styles = {
   }
 }
 
+@ReactMixin.decorate(ReactMeteorData)
 export default class PlansSell extends Component {
 
   static propTypes = {
-    style: PropTypes.object.isRequired
+    style: PropTypes.object.isRequired,
+    plan: PropTypes.object.isRequired
   }
 
   state = {
     focused: false
+  }
+
+  getMeteorData() {
+    var handle = Meteor.subscribe("planLast5", this.props.plan);
+    var last5 = this.props.plan.last5().fetch();
+    var handle2ready = true;
+
+    if (this.props.plan.holiday || this.props.plan.dayType) {
+      var handle2 = Meteor.subscribe("planSpecialDay", this.props.plan);
+      var specialPlans = this.props.plan.specialDay().fetch();
+      handle2ready = handle2.ready();
+      if (handle2ready) { last5 = last5.concat(specialPlans) }
+    }
+
+    return {
+      plansIsLoading: !handle.ready() && !handle2ready,
+      plans: last5
+    }
   }
 
   render() {
@@ -74,10 +98,18 @@ export default class PlansSell extends Component {
 
   renderTooltip(plan) {
     if (this.state.focused) {
+      if (this.data.plansIsLoading) {
+        return (
+            <div style={styles.tooltip} key={plan._id}>
+              <Spinner size="mg" />
+            </div>
+        )
+      }
+
       return (
           <div style={styles.tooltip} key={plan._id}>
             <table>
-              {plan.references().map(reference => this.renderReference(reference))}
+              {this.data.plans.map(reference => this.renderReference(reference))}
             </table>
           </div>
       )
