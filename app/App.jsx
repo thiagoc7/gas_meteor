@@ -4,12 +4,10 @@ import ModalComponent from './pages/ModalComponent'
 import Plans from './pages/Plans'
 import NavBar from './components/NavBar'
 
-import './styles.less';
+import './styles/styles.less';
 import 'react-datepicker/dist/react-datepicker.css';
 
 export default class App extends Component {
-  //componentWillMount() {
-  //}
 
   render() {
     return (

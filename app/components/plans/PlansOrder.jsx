@@ -3,7 +3,6 @@
 import React, { Component, PropTypes } from 'react';
 //import ReactMixin from 'react-mixin';
 
-
 //@ReactMixin.decorate(ReactMeteorData)
 export default class PlansStation extends Component {
 
@@ -25,7 +24,7 @@ export default class PlansStation extends Component {
 
   render() {
     return (
-        <h1>Pedidos</h1>
+        <h1>Pedidddos</h1>
     )
   }
 }

@@ -4,6 +4,8 @@ var ReactCSSTransitionGroup = React.addons.CSSTransitionGroup;
 
 import PlansBuy from './PlansPrices'
 
+import './PlansSell.css'
+
 const styles = {
   input: {
     border: 0,
@@ -73,7 +75,7 @@ export default class PlansSell extends Component {
   renderTooltip(plan) {
     if (this.state.focused) {
       return (
-          <div style={styles.tooltip}>
+          <div style={styles.tooltip} key={plan._id}>
             <table>
               {plan.references().map(reference => this.renderReference(reference))}
             </table>

@@ -1,6 +1,6 @@
-Meteor.publish('plans', function(){
+Meteor.publish('plans', function(startDate, finalDate){
   if (this.userId) {
-    return Plans.find();
+    return Plans.find({date: {$lte: finalDate, $gte: startDate}});
   }
 });
 

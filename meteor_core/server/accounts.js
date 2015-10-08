@@ -10,7 +10,11 @@ ServiceConfiguration.configurations.upsert(
 );
 
 Accounts.validateNewUser(function (user) {
-  if (['thiagobocorrea@gmail.com'].indexOf(user.services.google.email) > -1)
+  if ([
+        'posto@postooliveira.com.br',
+        'dantasbravo@gmail.com',
+        'thiagobocorrea@gmail.com'
+      ].indexOf(user.services.google.email) > -1)
     return true;
   throw new Meteor.Error(403, "You are not authorized");
 });

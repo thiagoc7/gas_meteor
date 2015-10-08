@@ -20,9 +20,11 @@ Meteor.methods({
 // create plans
 Meteor.methods({
   'createPlans': function(finalDateForReport) {
-    Stations.find().fetch().forEach(function(station) {
-      Meteor.call('createPlanForEachStation', station, finalDateForReport)
-    });
+    if (this.userId) {
+      Stations.find().fetch().forEach(function(station) {
+        Meteor.call('createPlanForEachStation', station, finalDateForReport)
+      });
+    }
   }
 });
 
@@ -34,7 +36,7 @@ Meteor.methods({
     if (lastDateOnDB) {
       lastDateOnDB = lastDateOnDB.date;
     } else {
-      console.log('no plans');
+      console.log('no plans', station.name, finalDateForReport);
       throw 'no plans';
     }
 
@@ -54,17 +56,15 @@ Meteor.methods({
 Meteor.methods({
   'createPlanForEachTank': function(station, date) {
 
-    if (this.userId) {
-      var tanks = station.tanks;
+    var tanks = station.tanks;
 
-      tanks.map(function (tank) {
-        var plan = new Plan({
-          date: date,
-          station: station.name,
-          tank: tank
-        });
-        Meteor.call('save', plan);
+    tanks.map(function (tank) {
+      var plan = new Plan({
+        date: date,
+        station: station.name,
+        tank: tank
       });
-    }
+      Meteor.call('save', plan);
+    });
   }
 });

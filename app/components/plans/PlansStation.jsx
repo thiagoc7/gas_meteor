@@ -2,7 +2,7 @@
 
 import React, { Component, PropTypes } from 'react';
 import ReactMixin from 'react-mixin';
-import { Glyph } from 'elemental';
+import { Glyph, Spinner } from 'elemental';
 
 import PlansTank from './PlansTank';
 
@@ -43,16 +43,22 @@ export default class PlansStation extends Component {
 
   getMeteorData() {
     //Meteor.subscribe("plansFilter", this.props.station.name, this.props.date);
+    var handle = Meteor.subscribe("plans", Session.get('startDate'), Session.get('finalDate'));
 
     return {
       plans: Plans.find({
         station: this.props.station.name,
         date: this.props.date
-      }).fetch()
+      }).fetch(),
+      plansLoading: ! handle.ready()
     }
   }
 
   render() {
+    if (this.data.plansLoading) {
+      return <Spinner size="lg" />
+    }
+
     var warningIcon = undefined;
     if (!this.data.plans[0].beginVolumeReal) { warningIcon = <Glyph icon="alert" type="warning"/> }
 
