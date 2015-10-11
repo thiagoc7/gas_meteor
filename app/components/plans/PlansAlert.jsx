@@ -2,7 +2,7 @@
 
 import React, { Component, PropTypes } from 'react';
 import ReactMixin from 'react-mixin';
-import { Alert, Button } from 'elemental';
+import { Alert, Button, Spinner } from 'elemental';
 
 @ReactMixin.decorate(ReactMeteorData)
 export default class PlansAlert extends Component {
@@ -11,6 +11,9 @@ export default class PlansAlert extends Component {
   }
 
   getMeteorData() {
+
+    var handle = Meteor.subscribe("plansAlert", this.props.station.name, moment().format('YYYY-MM-DD'));
+
     const plan = Plans.findOne({
       station: this.props.station.name,
       date: {$lt: moment().format('YYYY-MM-DD')},
@@ -21,6 +24,7 @@ export default class PlansAlert extends Component {
     if (plan) {date = moment(plan.date).add(1, 'day')}
 
     return {
+      planIsLoading: ! handle.ready(),
       plan: plan,
       date: date
     }
@@ -28,6 +32,10 @@ export default class PlansAlert extends Component {
 
   render() {
     if (this.data.plan) {
+      if (this.data.planIsLoading) {
+        return <Spinner size="lg" />
+      }
+
       return (
           <Alert type="danger">
               Medição pendente para

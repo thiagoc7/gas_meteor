@@ -67,7 +67,8 @@ export default class PlansTank extends Component {
                 placeholder="1000.00"
                 style={styles.input}
                 value={this.state.buy}
-                onChange={this.onBuyChange}
+                onChange={e => this.setState({buy: e.target.value})}
+                onBlur={this.onBuyBlur}
                 />
           </div>
           <div style={styles.cell}>
@@ -87,22 +88,21 @@ export default class PlansTank extends Component {
           idx={this.props.idx}
           plan={this.props.plan}
           value={this.state.sellForecast}
-          onChange={this.onSellForecastChange.bind(this)}
+          onChange={e => this.setState({sellForecast: e.target.value})}
+          onBlur={this.onSellForecastBlur}
           />
     }
   }
 
-  onBuyChange = (e) => {
-    this.setState({buy: e.target.value});
+  onBuyBlur = () => {
     var newPlan = this.props.plan;
-    newPlan.set('buy', e.target.value);
+    newPlan.set('buy', this.state.buy);
     Meteor.call('save', newPlan);
   }
 
-  onSellForecastChange(e) {
-    this.setState({sellForecast: e.target.value});
+  onSellForecastBlur = () => {
     var newPlan = this.props.plan;
-    newPlan.set('sellForecast', e.target.value);
+    newPlan.set('sellForecast', this.state.sellForecast);
     Meteor.call('save', newPlan);
   }
 

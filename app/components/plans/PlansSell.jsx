@@ -86,7 +86,10 @@ export default class PlansSell extends Component {
                 {...others}
                 style={styles.input}
                 onFocus={() => this.setState({focused: true})}
-                onBlur={() => this.setState({focused: false})}
+                onBlur={() => {
+                  this.setState({focused: false})
+                  this.props.onBlur()
+                }}
             />
             <div style={{position: 'absolute', marginLeft: '-' + (5 + this.props.idx) + '%'}}>
               <ReactCSSTransitionGroup transitionName="tooltip">

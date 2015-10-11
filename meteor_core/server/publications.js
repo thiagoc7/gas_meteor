@@ -13,6 +13,16 @@ Meteor.publish('plansFilter', function(station, date){
   }
 });
 
+Meteor.publish('plansAlert', function(station, date){
+  if (this.userId) {
+    return Plans.find({
+      station: station,
+      date: {$lt: date},
+      finalVolumeReal: null
+    }, {limit: 1, sort: {date: 1}});
+  }
+});
+
 Meteor.publish('planLast5', function(plan){
   if (this.userId) {
     return plan.last5();

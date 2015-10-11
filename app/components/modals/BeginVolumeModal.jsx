@@ -52,16 +52,16 @@ class BeginVolumeModalPlan extends Component {
               placeholder="1000"
               name="horizontal-form-input-email"
               value={this.state.finalVolumeReal}
-              onChange={this.onChange}
+              onChange={e => this.setState({finalVolumeReal: e.target.value})}
+              onBlur={this.onBlur}
               />
         </FormField>
     )
   }
 
-  onChange = (e) => {
-    this.setState({finalVolumeReal: e.target.value});
+  onBlur = () => {
     var newPlan = this.props.plan;
-    newPlan.set('finalVolumeReal', e.target.value);
+    newPlan.set('finalVolumeReal', this.state.finalVolumeReal);
     Meteor.call('save', newPlan);
   }
 }

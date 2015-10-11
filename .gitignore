@@ -3,3 +3,4 @@ node_modules
 npm-debug.log
 /webpack/lib
 .idea
+meteor_core/.demeteorized

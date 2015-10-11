@@ -47,7 +47,12 @@ Plan = Astro.Class({
   },
 
   events: {
-    beforeInsert: function() {
+    beforeInsert: function(e) {
+      // prevent duplicates
+      if (Plans.findOne({date: this.date, station: this.station, tank: this.tank})) {
+        e.preventDefault();
+      }
+
       //set holiday
       var holiday = Holidays.findOne({date: this.date});
       if (holiday) { this.set('holiday', holiday.name); }
