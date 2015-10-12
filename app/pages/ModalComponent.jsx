@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 import ReactMixin from 'react-mixin';
-import { Modal, ModalBody } from 'elemental';
+import { Modal, ModalBody, ModalHeader } from 'elemental';
 
 import BeginVolume from './../components/modals/BeginVolumeModal'
 import Suppliers from './../components/modals/SuppliersModal'
@@ -33,6 +33,7 @@ export default class ModalComponent extends Component {
 
     return (
         <Modal isOpen={modalIsOpen} onCancel={() => Session.set('modal', null)} backdropClosesModal>
+          <ModalHeader showCloseButton onClose={() => Session.set('modal', null)} />
           <ModalBody>
             <div>
               {this.data.modal? this.renderModal() : undefined}

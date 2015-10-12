@@ -1,7 +1,7 @@
 /* global ReactMeteorData */
 
 import React, { Component, PropTypes } from 'react';
-import { Form, FormField, FormInput, Button } from 'elemental';
+import { Form, FormField, FormInput, Button, Spinner } from 'elemental';
 import ReactMixin from 'react-mixin';
 
 @ReactMixin.decorate(ReactMeteorData)
@@ -13,13 +13,19 @@ export default class BeginVolumeModal extends Component {
 
   getMeteorData() {
     var date = moment(this.props.date).subtract(1, 'day').format('YYYY-MM-DD');
+    var handler = Meteor.subscribe('plansFilter', this.props.station.name, date);
 
     return {
+      plansIsLoading: ! handler.ready(),
       plans: Plans.find({date: date, station: this.props.station.name}).fetch()
     }
   }
 
   render() {
+    if (this.data.plansIsLoading) {
+      return  <Spinner size="lg" />
+    }
+
     return (
         <Form type="horizontal">
           <h3>{this.props.station.name}</h3>

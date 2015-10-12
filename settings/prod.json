@@ -1,7 +1,8 @@
 {
   "public": {
     "env": "PROD",
-    "foo": "bar"
+    "foo": "bar",
+    "MONGO_URL": "mongodb://gas-db:gas-db777@ds041633.mongolab.com:41633/gas-db"
   },
   "secret": "golf1234"
 }
