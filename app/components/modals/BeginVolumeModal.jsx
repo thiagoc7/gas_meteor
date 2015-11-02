@@ -52,7 +52,7 @@ class BeginVolumeModalPlan extends Component {
     var label = this.props.plan.tank.gasoline + ' - Tanques ' + this.props.plan.tank.number.toString();
 
     return (
-        <FormField label={label} htmlFor="horizontal-form-input-email">
+        <FormField label={label} htmlFor="horizontal-form-input-email" required >
           <FormInput
               type="text"
               placeholder="1000"
@@ -60,14 +60,23 @@ class BeginVolumeModalPlan extends Component {
               value={this.state.finalVolumeReal}
               onChange={e => this.setState({finalVolumeReal: e.target.value})}
               onBlur={this.onBlur}
+              required
               />
         </FormField>
     )
   }
 
   onBlur = () => {
+    var finalVolumeReal = this.state.finalVolumeReal
+    if (finalVolumeReal && finalVolumeReal[0] === "=") {
+      var result = finalVolumeReal.slice(1)
+      result = result.split("+").reduce(function(a, b){return parseInt(a) + parseInt(b);})
+      this.setState({finalVolumeReal: result})
+      finalVolumeReal = result
+    }
+
     var newPlan = this.props.plan;
-    newPlan.set('finalVolumeReal', this.state.finalVolumeReal);
+    newPlan.set('finalVolumeReal', finalVolumeReal);
     Meteor.call('save', newPlan);
   }
 }

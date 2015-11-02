@@ -14,7 +14,7 @@ export default class PlansDate extends Component {
 
 
   getMeteorData() {
-    Meteor.subscribe("plans");
+    Meteor.subscribe("plans", this.props.date, this.props.date);
     const plans = Plans.find({date: this.props.date}).fetch();
     let totalBuy = 0;
     let buyErrors = 0;

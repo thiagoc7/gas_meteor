@@ -2,9 +2,8 @@
 
 import React, { Component, PropTypes } from 'react';
 import ReactMixin from 'react-mixin';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import { Spinner } from 'elemental';
-
-var ReactCSSTransitionGroup = React.addons.CSSTransitionGroup;
 
 import PlansBuy from './PlansPrices'
 
@@ -92,7 +91,7 @@ export default class PlansSell extends Component {
                 }}
             />
             <div style={{position: 'absolute', marginLeft: '-' + (5 + this.props.idx) + '%'}}>
-              <ReactCSSTransitionGroup transitionName="tooltip">
+              <ReactCSSTransitionGroup transitionName="tooltip" transitionEnterTimeout={700} transitionLeaveTimeout={300}>
                 {this.renderTooltip(plan)}
               </ReactCSSTransitionGroup>
             </div>
@@ -114,7 +113,9 @@ export default class PlansSell extends Component {
       return (
           <div style={styles.tooltip} key={plan._id}>
             <table>
-              {this.data.plans.map(reference => this.renderReference(reference))}
+              <tbody>
+                {this.data.plans.map(reference => this.renderReference(reference))}
+              </tbody>
             </table>
           </div>
       )
