@@ -39,9 +39,12 @@ export default class PlansPrices extends Component {
     }
   }
   render() {
+    if (this.props.plan.buy <= 0) { return null }
+
+    const orderedPrices = this.data.prices.sort((a, b) => a.price > b.price)
     return (
         <div style={styles.base}>
-          {this.data.prices.map(price => <div key={price._id} onClick={() => this.onClick(price)} style={styles.pill}>{price.supplier} - {this.displayPrice(price)}</div>)}
+          {orderedPrices.map(price => <div key={price._id} onClick={() => this.onClick(price)} style={styles.pill}>{price.supplier} - {this.displayPrice(price)}</div>)}
         </div>
     )
   }
